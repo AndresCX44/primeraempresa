@@ -1,20 +1,45 @@
 h1{
     text-align: center;
     text-decoration: underline;
-    color: rgba(255, 255, 255, 0.363);;
+    background-color: dimgray; /* rojo elegante */
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
 }
 p,h2,th,td,label{
-    color: rgba(255, 255, 255, 0.363);;
+    color: black;
 }
-div.relativo{
+p{
     text-align: center;
-    color: rgba(255, 255, 255, 0.363);
+}
+div.relativo {
     position: fixed;
     top: 0;
     right: 0;
+    width: 30%;
     height: 40px;
-    border: 3px solid rgb(52, 49, 49);
+    border: 3px solid black;
+    color: black;
+    background-color: darkslategrey;
+    text-align: center;
 }
 body{
     background-color: rgb(39, 29, 53);
+    font-family: Arial, sans-serif;
+}
+.caja {
+    background-color: dimgray;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+.contenido {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+    text-decoration: underline;
 }
