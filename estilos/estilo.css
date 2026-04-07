@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.363);;
+}
+p,h2,th,td,label{
+    color: rgba(255, 255, 255, 0.363);;
+}
+div.relativo{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.363);
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 40px;
+    border: 3px solid rgb(52, 49, 49);
+}
+body{
+    background-color: rgb(39, 29, 53);
+}
