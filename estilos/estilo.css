@@ -14,14 +14,14 @@ p{
 }
 div.relativo {
     position: fixed;
-    top: 0;
-    right: 0;
-    width: 30%;
-    height: 40px;
-    border: 3px solid black;
-    color: black;
+    top: 10px;        
+    right: 10px;      
+    width: auto;      
+    height: auto;     
+    padding: 10px 20px;
+    border: 2px solid black;
     background-color: darkslategrey;
-    text-align: center;
+    border-radius: 10px;
 }
 body{
     background-color: rgb(39, 29, 53);
@@ -42,4 +42,23 @@ h2 {
     color: black;
     margin-bottom: 10px;
     text-decoration: underline;
+}
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 15px; /* espacio entre opciones */
+}
+.menu a {
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: darkviolet;
 }
